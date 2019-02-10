@@ -1,0 +1,29 @@
+.el-submenu {
+  .el-submenu__title {
+    padding: 0 10px !important;
+    span{
+      font-size: 12px;
+      color: #838383;
+    }
+  }
+  .el-menu-item {
+    padding-left: 16px !important;
+    border-left: 2px solid transparent;
+    height: 30px;
+    position: relative;
+    min-width: 100px;
+    &.is-active {
+      color: #414141 !important;
+      background-color: rgba(197,197,197,0.7) !important;
+      &::before {
+        content: '';
+        position: absolute;
+        height: 24px;
+        width: 3px;
+        top: 3px;
+        left: -2px;
+        background-color: red;
+      }
+    }
+  }
+}
