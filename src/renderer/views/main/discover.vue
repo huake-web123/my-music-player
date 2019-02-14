@@ -12,17 +12,17 @@ export default {
       playList: [
         {
           id: 1,
-          name: '红颜自闭',
-          author: '刘德华',
-          cover: 'https://dummyimage.com/100x100/ffffff&text=红',
-          url: 'http://localhost/upload/mp3/刘德华 - 红颜自闭.mp3'
+          name: '手放开',
+          author: '李圣杰',
+          cover: 'https://dummyimage.com/100x100/ffffff&text=手',
+          url: 'http://localhost/upload/mp3/李圣杰 - 手放开.mp3'
         },
         {
           id: 2,
-          name: '如烟',
-          author: '五月天',
-          cover: 'https://dummyimage.com/100x100/ffffff&text=天',
-          url: 'http://localhost/upload/mp3/五月天 - 如烟.mp3'
+          name: '阳光女孩-阳光男孩',
+          author: 'TG4',
+          cover: 'https://dummyimage.com/100x100/ffffff&text=阳',
+          url: 'http://localhost/upload/mp3/阳光女孩-阳光男孩.mp3'
         }
       ]
     }
